@@ -12,6 +12,7 @@ For the image transformation I used the scikit image transform.resize, transform
 ![](graphs/transformed_image_15x35.png)
 
 <br/>
+
 #### Changes introduced to *neural_network.MLPClassifier* parameters:
 * max_iter=10000, solver='adam', activation='logistic'
 

@@ -23,13 +23,17 @@ Due to the long time required to run the SVC model, there are two notebooks in t
 
 All iterations of the Linear SVR resulted in no predictions, and the model was not included in the ROC plots.
 
+<br/>
+
 Before introducing any changes, Linear SVC performed as follows:
 ###### Linear SVC
 ![](graphs/linear_SVC_default.png)
 
 SVC with default parameters did not execute, so only iterations that executed were visualized.
 
-The graphs representing the performance are as follows:
+<br/>
+
+Graphs representing the performance:
 ###### Linear SVC C=100
 ![](graphs/linear_SVC_100.png)
 ###### Linear SVC C=1000000
@@ -45,6 +49,7 @@ The graphs representing the performance are as follows:
 ###### SVC C=1e-323
 ![](graphs/SVC_1e-323.png)
 
+<br/>
 
 For easier comparison, here I show the ROC plots and Accuracy comparison between all iterations:
 

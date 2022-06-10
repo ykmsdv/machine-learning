@@ -8,6 +8,7 @@ For the image transformation I used the scikit image transform.rescale, and feat
 ![](graphs/transformed.png)
 
 <br/>
+
 Here is the ROC plot comparing the performance of of the model on train data and test data after the changes were introduced.
 
 ###### ROC train set

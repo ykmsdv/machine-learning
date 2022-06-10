@@ -9,11 +9,13 @@ For the image transformation I used the scikit image transform.rescale, and feat
 ![](graphs/transformed.png)
 
 <br/>
+
 #### Changes introduced to *neural_network.MLPClassifier* parameters:
 * max_iter=10000, alpha=1e-125, hidden_layer_sizes=(100, 100, 50, 50, 25, 25), solver='adam', learning_rate='invscaling'
 
 
 <br/>
+
 Here is the ROC plot comparing the performance of of the model on train data and test data after the changes were introduced.
 
 ###### ROC - Iteration04

@@ -11,6 +11,7 @@ For the image transformation I used the scikit image transform.downscale_local_m
 
 
 <br/>
+
 #### Changes introduced to *neural_network.MLPClassifier* parameters:
 * max_iter=1000, activation='logistic'
 * max_iter=1000, activation='logistic', hidden_layer_sizes=(4, 3, 2)
@@ -21,12 +22,14 @@ For the image transformation I used the scikit image transform.downscale_local_m
 * max_iter=1000, activation='logistic', hidden_layer_sizes=(32, 16, 4)
 * max_iter=1000, activation='logistic', hidden_layer_sizes=(256, 256)
 
+<br/>
 
 Here is the ROC plot comparing the performance of of the model on train data and test data after the changes were introduced.
 
 ###### ROC train set
 ![](graphs/ROC.png)
 
+<br/>
 
 Additionally, I plotted grouped bar charts comparing the models' accuracy and precision:
 

@@ -25,6 +25,7 @@ This repository contains two notebooks - *iteration02* with added features and s
 		movie_data['review'] = movie_data['review'].str.replace(r'<[^<>]*>', '', regex=True)
 		
 #### Changes Introduced in *final_iteration*:
+
 * Lemmatize the reviews
 
 		movie_data['lemmatized_reviews'] = movie_data.review.apply(lambda x: lemmatizer.lemmatize(x))
@@ -56,15 +57,19 @@ This repository contains two notebooks - *iteration02* with added features and s
 Here are the ROC plots comparing the models and their iterations on the train and test set:
 
 #### *iteration02*:
+
 ###### ROC train set
 ![](graphs/iteration02_ROC_train.png)
 ###### ROC test set
 ![](graphs/iteration02_ROC_test.png)
 
 <br/>
+
 #### *final_iteration*:
+
 ###### ROC train set
 ![](graphs/final_iteration_ROC_train.png)
+
 ###### ROC test set
 ![](graphs/final_iteration_ROC_test.png)
 

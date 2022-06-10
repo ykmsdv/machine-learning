@@ -9,10 +9,13 @@ Task: *Introduce changes to the starter code for final assignment 1 to show the 
 * alpha=10.0
 * alpha=1e-15
 
+<br/>
 Before introducing any changes, the models performed as follows:
+
 ![](graphs/default.png)
 
-The graphs representing the performance of each iteration are as follows:
+<br/>
+Graphs representing the performance of each iteration:
 ###### alpha=0.5
 ![](graphs/alpha_0_5.png)
 ###### alpha=1.5
@@ -24,7 +27,7 @@ The graphs representing the performance of each iteration are as follows:
 ###### alpha=1e-15
 ![](graphs/alpha_1e-15.png)
 
-
+<br/>
 For easier comparison, here I show the ROC plots and Accuracy comparison between all iterations:
 
 ###### ROC train set
