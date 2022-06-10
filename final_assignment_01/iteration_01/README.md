@@ -1,6 +1,6 @@
 ## Assignment 01
 
-*Introduce changes to the starter code for final assignment 1 to show the effect on one or more alterations on feature selection, extraction, and transformation.*
+Task: *Introduce changes to the starter code for final assignment 1 to show the effect on one or more alterations on feature selection, extraction, and transformation.*
 
 #### Changes Introduced:
 * HashingVectorizer
